@@ -10,3 +10,4 @@ libasound2-dev
 freeglut3-dev 
 libxcomposite-dev 
 libcurl4-gnutls-dev
+ladspa-sdk
