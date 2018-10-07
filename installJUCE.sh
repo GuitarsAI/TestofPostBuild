@@ -74,7 +74,7 @@ Categories=AudioVideo;Audio;Graphics;Development;IDE;ProjectManagement;" | sudo 
 fi
 ## Steinberg VST SDK 3
 read -p "Download Steinberg VST SDK 3? [Y/n]: " inst
-if [ $inst = y ] || [ $inst = Y ]
+if [ "$inst" = "y" ] || [ "$inst" = "Y" ]
 then
     cd /tmp/
     if [ -e vstsdk365_12_11_2015_build_67.zip ]
@@ -98,7 +98,7 @@ then
     echo "Downloaded."
 fi
 read -p "Run Projucer? [Y/n]: " inst
-if [ $inst = y ] || [ $inst = Y ]
+if [ "$inst" = "y" ] || [ "$inst" = "Y" ]
 then
     /home/$USER/JUCE/Projucer
 fi
