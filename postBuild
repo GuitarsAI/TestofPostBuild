@@ -2,9 +2,12 @@ export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++
 
 #wget https://d30pueezughrda.cloudfront.net/juce/juce-5.3.2-linux.zip
-unzip juce-5.3.2-linux.zip -d ./
+#unzip juce-5.3.2-linux.zip -d ./
 
+tar -xvzf VNC-Server-6.3.1-Linux-x64-ANY.tar.gz
 
+dpkg -i VNC-Server-6.3.1-Linux-x64.deb
+apt-get install -f
 
 
 #git clone -b develop https://github.com/julianstorer/JUCE
