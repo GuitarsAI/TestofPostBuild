@@ -2,7 +2,7 @@
 
 ## Installer for JUCE (https://www.juce.com/)
 read -p "Install Juce Grapefruit? [Y/n]: " inst
-if [ $inst = y ] || [ $inst = Y ]
+if [ "$inst" = "y" ] || [ "$inst" = "Y" ]
 then
     cd ~ 
     if [ -e "JUCE/Projects" ]
