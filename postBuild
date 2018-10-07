@@ -1,7 +1,7 @@
 export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++
 
-wget https://d30pueezughrda.cloudfront.net/juce/juce-5.3.2-linux.zip
+#wget https://d30pueezughrda.cloudfront.net/juce/juce-5.3.2-linux.zip
 unzip juce-5.3.2-linux.zip -d ./
 
 chmod +x installJUCE.sh
