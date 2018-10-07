@@ -22,3 +22,4 @@ xfce4-goodies
 tightvncserver
 git
 nano
+connectd
