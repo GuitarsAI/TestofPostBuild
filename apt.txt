@@ -16,3 +16,4 @@ libwebkit2gtk-4.0-dev
 libgtk-3-dev
 xdotool
 gdebi
+apt-utils
