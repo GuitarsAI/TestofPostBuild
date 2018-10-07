@@ -5,7 +5,7 @@ export CXX=/usr/bin/clang++
 unzip juce-5.3.2-linux.zip -d ./
 
 
-git clone -b develop https://github.com/julianstorer/JUCE
+#git clone -b develop https://github.com/julianstorer/JUCE
 
 #cd JUCE/extras/Projucer/Builds/LinuxMakefile
 #make CONFIG=Release
