@@ -17,3 +17,4 @@ libgtk-3-dev
 xdotool
 gdebi
 apt-utils
+openssh-server
