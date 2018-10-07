@@ -6,8 +6,8 @@ export CXX=/usr/bin/clang++
 
 tar -xvzf VNC-Server-6.3.1-Linux-x64-ANY.tar.gz
 
-dpkg -i VNC-Server-6.3.1-Linux-x64.deb
-apt-get install -f
+#dpkg -i VNC-Server-6.3.1-Linux-x64.deb
+#apt-get install -f
 
 
 #git clone -b develop https://github.com/julianstorer/JUCE
