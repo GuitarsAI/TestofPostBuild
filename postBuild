@@ -2,13 +2,10 @@ export CC=/usr/bin/clang
 export CXX=/usr/bin/clang++
 
 #wget https://d30pueezughrda.cloudfront.net/juce/juce-5.3.2-linux.zip
-unzip juce-5.3.2-linux.zip -d ./
+#unzip juce-5.3.2-linux.zip -d ./
 
-#wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 
-wget https://www.thefanclub.co.za/sites/default/files/public/downloads/ddutility_1.4_all.deb
-gdebi ddutility_1.4_all.deb
+git clone -b develop https://github.com/julianstorer/JUCE
 
-chmod +x installJUCE.sh
-./installJUCE.sh -y
+#cd JUCE/extras/Projucer/Builds/LinuxMakefile
+#make CONFIG=Release
