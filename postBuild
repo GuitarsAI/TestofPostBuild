@@ -5,7 +5,7 @@ export CXX=/usr/bin/clang++
 #unzip juce-5.3.2-linux.zip -d ./
 
 
-
+unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 
 #git clone -b develop https://github.com/julianstorer/JUCE
 
