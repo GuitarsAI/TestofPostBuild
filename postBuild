@@ -9,3 +9,6 @@ unzip juce-5.3.2-linux.zip -d ./
 
 #cd JUCE/extras/Projucer/Builds/LinuxMakefile
 #make CONFIG=Release
+
+
+#https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-18-04
