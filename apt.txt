@@ -18,3 +18,4 @@ xdotool
 gdebi
 apt-utils
 openssh-server
+x11-xserver-utils
