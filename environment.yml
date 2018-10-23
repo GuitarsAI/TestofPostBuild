@@ -1,0 +1,7 @@
+name: DigitalHumanities
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - openrefine
