@@ -1,1 +1,2 @@
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+conda install -c anaconda openrefine
