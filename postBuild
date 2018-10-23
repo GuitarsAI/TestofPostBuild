@@ -1,0 +1,1 @@
+unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
