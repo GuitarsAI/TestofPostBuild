@@ -1,2 +1,3 @@
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-
+wget https://github.com/OpenRefine/OpenRefine/releases/download/3.0/openrefine-linux-3.0.tar.gz
+tar xzf openrefine-linux-2.7.tar.gz
