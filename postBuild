@@ -1,4 +1,5 @@
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
-wget https://github.com/OpenRefine/OpenRefine/releases/download/3.0/openrefine-linux-3.0.tar.gz
+#wget https://github.com/OpenRefine/OpenRefine/releases/download/3.0/openrefine-linux-3.0.tar.gz
 tar xzf openrefine-linux-3.0.tar.gz
 git clone https://github.com/PaulMakepeace/refine-client-py.git
+
