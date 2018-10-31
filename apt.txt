@@ -1,2 +1,2 @@
 default-jdk
-git
+apt-utils
