@@ -2,7 +2,7 @@ name: DigitalHumanities
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python==2.7
   - numpy
   - pip:
     - urllib2_file==0.2.1
