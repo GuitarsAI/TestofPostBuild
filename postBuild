@@ -3,6 +3,6 @@ unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 tar xzf openrefine-linux-3.0.tar.gz
 #git clone https://github.com/PaulMakepeace/refine-client-py.git
 unzip refine-client-py-master.zip
-python /home/jovyan/refine-client-py/setup.py build
-python /home/jovyan/refine-client-py/setup.py install
+#python /home/jovyan/refine-client-py/setup.py build
+#python /home/jovyan/refine-client-py/setup.py install
 
