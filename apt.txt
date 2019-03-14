@@ -1,4 +1,3 @@
 nodejs-legacy 
 npm 
-ipython 
-ipython-notebook
+
