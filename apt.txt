@@ -1,3 +1,6 @@
-
+pkg-config
+ZeroMQ
+node
+ipython
 
 
