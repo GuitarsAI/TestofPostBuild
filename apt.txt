@@ -1,3 +1,4 @@
+npm
 pkg-config
 ipython
 
